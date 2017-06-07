@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { BasicHighlightDirective } from "../basc-highlight/basic-highlight.directive";
 import { BetterHighlightDirective } from '../better-highlight/better-highlight.directive';
 import { UnlessDirective } from '../unless/unless.directive';
-import { NumberDirective } from './number.directive';
 import { NumberInputComponent } from './number-input/number-input.component'
 
 @NgModule({
@@ -17,7 +16,6 @@ import { NumberInputComponent } from './number-input/number-input.component'
         BasicHighlightDirective,
         BetterHighlightDirective,
         UnlessDirective,
-        NumberDirective,
         NumberInputComponent
     ],
     imports: [
