@@ -1,6 +1,17 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
+            <number-input
+                    (onError)="showError($event)"
+                    [max]="53"
+                    [min]="2">
+
+            </number-input>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
             <button
                     class="btn btn-primary"
                     (click)="onlyOdd = !onlyOdd">Only show odd numbers

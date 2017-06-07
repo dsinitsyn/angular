@@ -1,0 +1,8 @@
+<input type="text"
+       (keydown)="onKeydown($event)"
+       (keyup)="onKeyup()"
+       (paste)="onPaste($event)"
+       [(ngModel)]="value"
+       #input/>
+<button (click)="onIncrease()">+</button>
+<button (click)="onDecrease()">-</button>
